@@ -1,5 +1,3 @@
-# Lab 5 - Job ETL
-
 # Imports
 import airflow
 from datetime import timedelta
@@ -37,18 +35,7 @@ default_args = {
     'retries': 1,
     'retry_delay': timedelta(minutes = 5),
 }
-
-# Cria a DAG
-#dag_airflow_airbyte = DAG(dag_id = "airbyte_example_airflow_dag",
-#                   default_args = args,
-#                   # schedule_interval='0 0 * * *',
-#                   schedule_interval = '@once',  
-#                   dagrun_timeout = timedelta(minutes = 60),
-#                   description = 'Job ETL de Carga no DW com Airflow',
-#                   start_date = airflow.utils.dates.days_ago(1)
-#
-
-
+#List Variables for create Group of task on Airflow
 group_DQ_dimensions=[]
 group_update_dimensions=[]
 sub_group_dim_cliente =[]
