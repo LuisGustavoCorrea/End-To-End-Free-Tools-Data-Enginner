@@ -3,6 +3,12 @@
 
 ## Introduction
 The goal of this project is to perform Data Analytics ensuring Data Quality throughout the entire Extraction, Transformation, and Load (ETL) process using various tools and technologies.
+Additionally, the goal of this project is to assist data engineers in their daily tasks by monitoring data flow and quality. Help us with that questions:
+- Is any data missing from the source?
+- Are the source data within the previously reported standards?
+- Was there any error during the reading, transformation, and final loading process into the report?
+- Was there a change in the script or business rule during data transformation?
+- Was there a change in the business rule?
 
 ## Technology Used
 
